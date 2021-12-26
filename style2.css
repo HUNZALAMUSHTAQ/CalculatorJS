@@ -1,0 +1,79 @@
+body{
+    background-image: url(calcbg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.main {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    /* background-color: blue; */
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.calc {
+    height: 50%;
+    width: 50%;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+}
+.display{
+    height: 20%;
+    width: 100%;
+}
+.display > input{
+    
+    font-size: 1em;
+    border: none ;
+    height: 100%;
+    width: 100%;
+}
+.buttons {
+    height: 100%;
+    width: 25%;
+    background-color: rgba(255, 255, 255, 0.534);
+    border: 2px solid rgba(255, 255, 255, 0);
+    font-size: 1em;
+    
+}
+.attention{
+    background-color: rgba(255, 255, 255, 0.712) !important;
+
+}
+.buttons:hover{
+    background-color: rgba(255, 255, 255, 0.712);
+    transition: 1s;
+
+}
+.btn {
+    height: 60%;
+}
+.btns{
+    height: 20%;
+}
+.history{
+    height:auto;
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-around;
+}
+.now{
+    margin: 5px;
+    width: auto;
+    height: 25px;
+    border: 1px solid rgba(0, 0, 0, 0.096);
+    padding: 5px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.158);
+}
